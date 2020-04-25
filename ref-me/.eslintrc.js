@@ -1,17 +1,17 @@
 // https://eslint.org/docs/user-guide/configuring
 
 module.exports = {
-  root: true,
+  root: false,
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module'
   },
   globals: {
-     "chrome": true
+     "chrome": false
     // chrome: true
   },
   env: {
-    browser: true,
+    browser: false,
   },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
   extends: 'standard',
